@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ProjectCard = styled.div`
-  width: 37%;
+  width: 100%;
   padding: 20px;
   border-radius: 15px;
   display: flex;

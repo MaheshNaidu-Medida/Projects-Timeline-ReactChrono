@@ -26,8 +26,8 @@ const CourseTimelineCard = props => {
       </CardHeader>
       <CardDescription>{description}</CardDescription>
       <CardLinksContainer>
-        {tagsList.forEach(each => (
-          <CardLink key={each.id}>{each}</CardLink>
+        {tagsList.map(each => (
+          <CardLink key={each.id}>{each.name}</CardLink>
         ))}
       </CardLinksContainer>
     </Card>

@@ -23,7 +23,7 @@ const ProjectTimelineCard = props => {
 
   return (
     <ProjectCard>
-      <ProjectImage url={imageUrl} alt="project" />
+      <ProjectImage src={imageUrl} alt="project" />
       <Header>
         <ProjectTitle>{projectTitle}</ProjectTitle>
         <DurationContainer>

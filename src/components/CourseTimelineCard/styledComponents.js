@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const Card = styled.div`
-  width: 37%;
-  padding: 20px;
+  width: 100%;
+  padding: 5px;
   background-color: #ffffff;
   border-radius: 10px;
   display: flex;
@@ -25,7 +25,7 @@ export const CardHeading = styled.h1`
   font-family: 'Roboto';
   font-size: 24px;
   font-weight: bold;
-  line-height: 1.5;
+  line-height: 1;
 `
 export const DurationContainer = styled.div`
   display: flex;
@@ -55,21 +55,20 @@ export const CardLinksContainer = styled.ul`
   flex-direction: column;
   align-items: flex-start;
   flex-wrap: wrap;
+  margin-top: 0px;
   @media screen and (min-width: 768px) {
     flex-direction: row;
     align-items: center;
   }
 `
-export const CardLink = styled.li`
-  list-style-type: none;
+export const CardLink = styled.p`
   margin-bottom: 8px;
   margin-right: 8px;
   background-color: silver;
-  border-radius: 15px;
-  padding: 14px;
+  border-radius: 8px;
+  padding: 11px;
   color: #1e293b;
   font-family: 'Roboto';
   font-size: 16px;
   font-weight: bold;
-  text-align: center;
 `

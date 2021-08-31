@@ -17,7 +17,7 @@ const TimelineView = props => {
         </TimelineHeading>
       </TimelineHeading>
       <Chrono items={timelineItemsList} mode="VERTICAL_ALTERNATING">
-        {timelineItemsList.forEach(each => {
+        {timelineItemsList.map(each => {
           const {id, categoryId} = each
           if (categoryId === 'COURSE') {
             return <CourseTimelineCard key={id} courseDetails={each} />
